@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/giris">
+      <requestFocus />
+
+     <EditText
+         android:id="@+id/editIp"
+         android:layout_width="177dp"
+         android:layout_height="35dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:ems="10"
+         android:hint="IP adresi" />
+
+     <ImageView
+         android:id="@+id/imageConnect"
+         android:layout_width="140dp"
+         android:layout_height="62dp"
+         android:layout_below="@+id/editName"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="15dp"
+         android:src="@drawable/buton" />
+
+     <EditText
+         android:id="@+id/editName"
+         android:layout_width="177dp"
+         android:layout_height="35dp"
+         android:layout_alignLeft="@+id/editIp"
+         android:layout_below="@+id/editIp"
+         android:layout_marginTop="16dp"
+         android:ems="10"
+         android:hint="Kullanıcı adı" />
+    
+</RelativeLayout>
